@@ -37,7 +37,7 @@ export default class BootstrapperFactory {
     }
 
     getVsTelemetryReporterCreator(): VsTelemetryReporterCreator {
-        const enableTelemetry = this.getWorkspaceAdaptor().get<boolean>('enableTelemetry');
+        const enableTelemetry = false;
         if (enableTelemetry) {
             return (id: string, version: string, telemetryKey: string) =>
                 new VsTelemetryReporter(id, version, telemetryKey);
