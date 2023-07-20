@@ -104,7 +104,7 @@ A couple of requests from me when you raise an github issue.
     ]
     ```
 
-* `partialDiff.enableTelemetry` (default: `true`)
+* `partialDiff.enableTelemetry` (default: `false`)
 
     Allow the extension usage data to be sent to the extension author.
     
