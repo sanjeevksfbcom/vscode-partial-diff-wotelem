@@ -116,7 +116,7 @@
         "partialDiff.enableTelemetry": {
           "description": "Enable usage data to be sent to the extension authour",
           "type": "boolean",
-          "default": true
+          "default": false
         }
       }
     },
